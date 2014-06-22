@@ -1,0 +1,157 @@
+header {
+/* Adjust the values accordingly to the 90px height.
+  (E.g. 30px padding-top, 30px font-size, 30px padding-bottom) */
+	height: 90px;
+	background: #309a46;
+	padding: 32.2px 0;
+	margin-bottom: 40px;
+	color: #afe1da;
+}
+
+#header_title{
+	color: white;
+	font-size: 1.6rem;
+	font-weight: bold;
+	margin: 0;
+	float: left;
+	height: 100%;
+}
+
+#header_menu{
+	height: 100%;
+}
+
+#header_menu .nav{
+	font-size: 0.95rem;
+	float: right;
+	list-style: none;
+	margin: 0;
+	padding: 5.2px;
+}
+
+#header_menu .nav li{
+	display: inline;
+}
+
+#header_menu .nav a{
+	color: #afe1da;
+	font-weight: bold;
+	margin-left: 20px;
+	transition: color 0.7s, text-shadow 2s;
+	-webkit-transition: color 0.7s, text-shadow 2s; 
+	vertical-align: baseline;
+}
+
+#header_menu .nav a:hover{
+	color: #ffffff;
+	/*text-shadow: 0 0 40px #ffffff;*/
+}
+
+#post_title{
+  font-size: 1.7rem;
+  font-color: #222222;
+  font-style: normal;
+  margin-top: 0.2rem;
+  line-height: 1.4;
+  font-weight: 300;
+  text-rendering: optimizelegibility;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
+}
+
+#post_date{
+  font-size: 0.8rem;
+  font-color: #222222;
+  font-style: normal;
+  font-weight: 300;
+  margin-top: 0px;
+  padding-bottom: 1rem;
+  text-rendering: optimizelegibility;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2.0rem;
+}
+
+h2 {
+  font-size: 1.7rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+#content {
+  padding-bottom: 2.2rem;
+}
+
+#footer {
+/*  padding-bottom: 0.3rem;*/
+  background: #fff;
+  color: grey;
+}
+
+#floating_panel {
+  margin-top: 22.5px;
+}
+
+section.right-small{
+    box-shadow: none;
+    border-width: 0px;
+}
+
+.right-off-canvas-menu{
+  background:#309a46;
+}
+
+ul.off-canvas-list li a{
+  color:#fff;
+}
+
+#platforms{
+  font-size: 0.9rem;
+  font-color: #222222;
+  font-style: normal;
+  font-weight: 300;
+  margin-top: 0px;
+  padding-bottom: 1rem;
+  text-rendering: optimizelegibility;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
+}
+
+#fb-icon{
+  color:#222222;
+  transition: color 0.7s;
+}
+
+#fb-icon:hover{
+  color:#3b5998;
+}
+
+#g-icon{
+  color:#222222;
+  transition: color 0.7s;
+}
+
+#g-icon:hover{
+  color:#c13221;
+}
+
+#bb-icon{
+  color:#222222;
+  transition: color 0.7s;
+}
+
+#bb-icon:hover{
+  color:#193d6e;
+}
+
+#android-icon{
+  color:#a4c639;
+}

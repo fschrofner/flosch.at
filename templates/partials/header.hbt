@@ -1,0 +1,37 @@
+<aside class="right-off-canvas-menu">
+  <ul class="off-canvas-list">
+    <li><a href="/">Home</a></li>
+    <li><a href="/projects">Projects</a></li>
+    <li><a href="/blog">Blog</a></li>
+    <li><a href="/about">About</a></li>
+  </ul>
+</aside>
+
+<header id="header">
+  <div class="row">
+    <div class="small-12 medium-6 large-6 columns">
+      <div id="header_title">
+        {{ title }}
+      </div>
+    </div>
+    <strong class="hide-for-medium-up">
+      <section class="right-small">
+        <div id="floating_panel">
+          <a class="right-off-canvas-toggle menu-icon"><span></span></a>
+        </div>
+      </section>
+    </strong>
+    <div class="small-12 medium-6 large-6 columns">
+      <strong class="show-for-medium-up">
+        <div id="header_menu">
+          <ul class="nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/about">About</a></li>
+          </ul>
+        </div>
+      </strong>
+    </div>
+  </div>
+</header>
