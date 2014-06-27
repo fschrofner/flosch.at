@@ -3,7 +3,7 @@
   "description": "build script for the flosch.at website",
   "dependencies": {
     "metalsmith": ">=0.8.0",
-    "handlebars": ">= 2.0.0",
+    "handlebars": ">= 2.0.0-alpha.4",
     "metalsmith-collections": ">=0.4.1",
     "metalsmith-markdown": ">=0.2.1",
     "metalsmith-permalinks": ">=0.3.0",

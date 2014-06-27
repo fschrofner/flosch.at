@@ -125,33 +125,6 @@ ul.off-canvas-list li a{
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
 }
 
-#fb-icon{
-  color:#222222;
-  transition: color 0.7s;
-}
-
-#fb-icon:hover{
-  color:#3b5998;
-}
-
-#g-icon{
-  color:#222222;
-  transition: color 0.7s;
-}
-
-#g-icon:hover{
-  color:#c13221;
-}
-
-#bb-icon{
-  color:#222222;
-  transition: color 0.7s;
-}
-
-#bb-icon:hover{
-  color:#193d6e;
-}
-
 #android-icon{
   color:#a4c639;
 }
