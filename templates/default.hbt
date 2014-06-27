@@ -3,9 +3,9 @@
   <head profile="http://www.w3.org/2005/10/profile">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flosch | {{ title }}</title>
+    <title>{{ title }} | Florian Schrofner</title>
     
-    <link rel="icon" type="image/png" href="{{ base_url }}/favicon.png">
+    <link rel="icon" type="image/png" href="{{ base_url }}/favicon.png"/>
     <link rel="stylesheet" href="{{ base_url }}/styles/foundation/css/foundation.css" />
     <link rel="stylesheet" href="{{ base_url }}/styles/prism/prism.css"/>
     <link rel="stylesheet" href="{{ base_url }}/styles/font-awesome/css/font-awesome.min.css"/>
@@ -24,7 +24,7 @@
       <section id="content">
         <div class="row">
           <div class="small-12 columns">
-            {{{ contents }}}
+              {{{ contents }}}
           </div>
         </div>
       </section>
