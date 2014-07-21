@@ -1,0 +1,33 @@
+#content{
+  text-align:center;
+}
+
+#fb-icon{
+  margin-top: 2.0rem;
+  color:#222222;
+  transition: color 0.7s;
+}
+
+#fb-icon:hover{
+  color:#3b5998;
+}
+
+#g-icon{
+  margin-top: 2.0rem;
+  color:#222222;
+  transition: color 0.7s;
+}
+
+#g-icon:hover{
+  color:#c13221;
+}
+
+#bb-icon{
+  margin-top: 2.0rem;
+  color:#222222;
+  transition: color 0.7s;
+}
+
+#bb-icon:hover{
+  color:#193d6e;
+}
