@@ -1,14 +1,18 @@
 var Metalsmith = require('metalsmith');
+var moment = require('moment');
 var markdown = require('metalsmith-markdown');
 var templates = require('metalsmith-templates');
 var collections = require('metalsmith-collections');
 var permalinks = require('metalsmith-permalinks');
 var branch = require('metalsmith-branch');
+var excerpts = require('metalsmith-excerpts');
 var Handlebars = require('handlebars');
 var fs = require('fs');
 
 Handlebars.registerPartial('header',fs.readFileSync(__dirname + '/templates/partials/header.hbt').toString());
 Handlebars.registerPartial('footer',fs.readFileSync(__dirname + '/templates/partials/footer.hbt').toString());
+Handlebars.registerPartial('blog_posts',fs.readFileSync(__dirname + '/templates/partials/blog_posts.hbt').toString());
+Handlebars.registerHelper("formatDate", formatDate);
 
 var metal = Metalsmith(__dirname);
 metal.source('./src');
@@ -27,14 +31,16 @@ metal.use(collections({
     reverse: true
   }
 }));
-  
+
 metal.use(markdown());
 
-metal.use(templates('handlebars'));
+metal.use(excerpts());
 
 //metal.use(branch(filterStaticContent)
 //  .use(templates('handlebars'))
 //);
+
+
 
 metal.use(branch(isPage)
   .use(permalinks({
@@ -54,10 +60,7 @@ metal.use(branch(isPost)
   }))
 );
 
-//metal.use(permalinks({
-//  pattern: ':collection/:title'
-//}));
-
+metal.use(templates('handlebars'));
 
 metal.build();
 
@@ -92,4 +95,8 @@ function isPost(_filename, _properties, _index) {
   } else {
     return false;
   }
+}
+
+function formatDate(_datetime, _format) {
+  return moment(new Date(_datetime)).format(_format);
 }
