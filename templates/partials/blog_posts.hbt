@@ -1,0 +1,11 @@
+<div data-alert class="alert-box warning radius">
+  The blog is still work in progress.
+  <a href="#" class="close">&times;</a>
+</div>
+<h1>Blog</h1>
+<hr />
+{{#each collections.blog}}
+  <h3><a href="/{{ this.path }}">{{ this.title }}</a></h3>
+  <p class="meta">{{formatDate this.date 'Do MMM YYYY'}}</p>
+  <p class="excerpt">{{ this.excerpt }} ...</p>
+{{/each}}
