@@ -1,0 +1,9 @@
+<div id="post_title">
+  {{ this.title }}
+</div>
+
+<div id="post_date">
+    {{ formatDate this.date 'Do MMM YYYY' }}
+</div>
+
+<hr/>

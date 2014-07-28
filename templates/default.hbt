@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="{{ base_url }}/styles/prism/prism.css"/>
     <link rel="stylesheet" href="{{ base_url }}/styles/font-awesome/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="{{ base_url }}/styles/style.css" />
+    <link rel="stylesheet" href="{{ base_url }}/styles/additional_home.css" />
     
     <script src="{{ base_url }}/styles/foundation/js/modernizr.js"></script>
     

@@ -1,7 +1,7 @@
 ---
 title: Home
 description: Welcome to my personal blog & portfolio!
-template: home.hbt
+template: default.hbt
 ---
 
 <p/>

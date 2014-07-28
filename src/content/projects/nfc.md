@@ -29,7 +29,7 @@ If you're interested you can check it out at the links below!
 (The app isn't available on Google Play yet, but most certainly will be in the near future)  
 
 ###Screenshots
-<div id="screenshots">
+<div id="screens">
     <a href="/images/projects/screens/nfc/gallery/nfc_start.png" title="Start writing">
         <img src="/images/projects/screens/nfc/gallery/nfc_start_thumb.png" alt="start writing"/>
     </a>
