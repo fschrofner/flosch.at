@@ -63,7 +63,7 @@ The app is currently in a beta stage (all important features are implemented and
 <a href="http://www.androidios.com/how-to-set-smart-phone-profiles-quickly-and-easily-swipe-profileswitcher/" target="_blank">Android iOS</a> (seems to be a translation of <a href="http://www.svetandroida.cz/swip-profileswitcher-chytre-profily-telefon-rychle-jednoduse-201403" target="_blank">this</a> review)
 
 ###Screenshots
-<div id="screenshots">
+<div id="screens">
     <a href="/images/projects/screens/swip/gallery/swip_change_volume.png" title="Changing the media volume">
         <img src="/images/projects/screens/swip/gallery/swip_change_volume_thumb.png" alt="change volume"/>
     </a>
