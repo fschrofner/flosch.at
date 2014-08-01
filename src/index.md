@@ -1,7 +1,7 @@
 ---
 title: Home
 description: Welcome to my personal blog & portfolio!
-template: default.hbt
+template: home.hbt
 ---
 
 <p/>
@@ -9,7 +9,7 @@ template: default.hbt
 
 #Welcome!
 My name is Florian Schrofner and I'm currently studying Mobile Computing at the University of Applied Sciences Hagenberg.  
-I've already developed mobile apps for Android and multiplatform using Qt, releasing all my work under open-source licences so far.  
+I've already developed mobile apps for Android, iOS and multiplatform using Qt, releasing all my finished work under open-source licences so far.  
 Welcome to my personal website (and soon blog) where you can find some information about me and my projects.  
 You should consider this website to be my virtual portfolio & playground.  
 
