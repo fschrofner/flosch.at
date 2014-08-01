@@ -21,6 +21,15 @@ If you want to take a closer look at one of them just click on the according ico
 <br/>
 <br/>
 
+<center><a href="/projects/notify"><img src="/images/projects/nfc_tag_file_sharing.png"/></a></center>
+<center> <h2> Notify [Android]</h2>  </center>  
+
+>An application which handles the creation and synchronisation of timed, cross-device (but not cross-platform) reminders.  
+
+<br/>
+<br/>
+<br/>
+
 <center><a href="/projects/nfc-tag-filesharing"><img src="/images/projects/nfc_tag_file_sharing.png"/></a></center>
 <center> <h2> NFC Tag File Sharing [Android]</h2>  </center>
 
