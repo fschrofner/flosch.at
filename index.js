@@ -13,7 +13,7 @@ Handlebars.registerPartial('header',fs.readFileSync(__dirname + '/templates/part
 Handlebars.registerPartial('footer',fs.readFileSync(__dirname + '/templates/partials/footer.hbt').toString());
 Handlebars.registerPartial('blog_posts',fs.readFileSync(__dirname + '/templates/partials/blog_posts.hbt').toString());
 Handlebars.registerPartial('post_header',fs.readFileSync(__dirname + '/templates/partials/post_header.hbt').toString());
-Handlebars.registerHelper("formatDate", formatDate);
+Handlebars.registerHelper('formatDate', formatDate);
 
 var metal = Metalsmith(__dirname);
 metal.source('./src');
@@ -30,6 +30,9 @@ metal.use(collections({
     pattern: 'content/blog/*/*/*.md',
     sortBy: 'date',
     reverse: true
+  },
+  pictures: {
+    pattern: 'content/blog/*/*/*.png'
   }
 }));
 
