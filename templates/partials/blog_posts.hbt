@@ -7,5 +7,5 @@
 {{#each collections.blog}}
   <h3><a href="/{{ this.path }}">{{ this.title }}</a></h3>
   <p class="meta">{{formatDate this.date 'Do MMM YYYY'}}</p>
-  <p class="excerpt">{{ this.excerpt }} ...</p>
+  {{{ this.excerpt }}}
 {{/each}}
