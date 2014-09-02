@@ -9,6 +9,7 @@
     "metalsmith-markdown": ">=0.2.1",
     "metalsmith-permalinks": ">=0.3.0",
     "metalsmith-templates": ">=0.5.2",
-    "metalsmith-excerpts": ">=1.0.0"
+    "metalsmith-excerpts": ">=1.0.0",
+    "metalsmith-tags": ">=0.6.1"
   }
 }

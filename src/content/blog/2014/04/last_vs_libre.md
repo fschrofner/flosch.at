@@ -17,8 +17,8 @@ Or atleast I would have, but about a month ago I somehow ended up on Libre.fm ag
 The initial enthusiasm was gone pretty quickly as I saw that Libre.fm still can't display the album cover of any of the artists I scrobbled.  
 
 <div id="pictures">
-    <a href="/blog/2014/04/librefm_main.png" title="Libre.fm Main">
-        <img src="/blog/2014/04/librefm_main_thumb.png" alt="Libre.fm Main">
+    <a href="/images/blog/2014/04/librefm_main.png" title="Libre.fm Main">
+        <img src="/images/blog/2014/04/librefm_main_thumb.png" alt="Libre.fm Main">
     </a>
 </div>  
 <br/>
