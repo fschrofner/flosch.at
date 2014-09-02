@@ -6,6 +6,7 @@ var collections = require('metalsmith-collections');
 var permalinks = require('metalsmith-permalinks');
 var branch = require('metalsmith-branch');
 var excerpts = require('metalsmith-excerpts');
+var tags = require('metalsmith-tags');
 var Handlebars = require('handlebars');
 var fs = require('fs');
 
@@ -30,21 +31,12 @@ metal.use(collections({
     pattern: 'content/blog/*/*/*.md',
     sortBy: 'date',
     reverse: true
-  },
-  pictures: {
-    pattern: 'content/blog/*/*/*.png'
   }
 }));
 
 metal.use(markdown());
 
 metal.use(excerpts());
-
-//metal.use(branch(filterStaticContent)
-//  .use(templates('handlebars'))
-//);
-
-
 
 metal.use(branch(isPage)
   .use(permalinks({
@@ -66,16 +58,17 @@ metal.use(branch(isPost)
 
 metal.use(templates('handlebars'));
 
+metal
+    .use(tags({
+        handle: 'tags',                 // yaml key for tag list in you pages
+        path:'tag',                     // path for result pages
+        template:'/templates/tag.hbt',  // template to use for tag listing
+      sortBy: 'date',                   // provide posts sorted by 'date' (optional)
+      reverse: true                     // sort direction (optional)
+    }));
+    
+
 metal.build();
-
-
-//this code part is needed since metalsmith-templates currently destroys binary files
-//function filterStaticContent(filename, properties, index) {
-//  var extension = filename.split('.').pop().toLowerCase();
-//  var staticExtensions = [ "jpg", "jpeg", "png", "otf"];
-//  var notStatic = staticExtensions.indexOf(extension) == -1;
-//  return notStatic;
-//}
 
 function isPage(_filename, _properties, _index) {
   if(_properties.collection === 'pages'){
