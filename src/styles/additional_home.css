@@ -12,14 +12,14 @@
   color:#3b5998;
 }
 
-#g-icon{
+#tw-icon{
   margin-top: 2.0rem;
   color:#222222;
   transition: color 0.7s;
 }
 
-#g-icon:hover{
-  color:#c13221;
+#tw-icon:hover{
+  color:#1ab2e8;
 }
 
 #bb-icon{

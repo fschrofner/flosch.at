@@ -78,6 +78,9 @@ The app is currently in a beta stage (all important features are implemented and
     </a>
 </div>  
 
+###Video
+<iframe src="https://mediacru.sh/bsmiK7kG02WH/frame" frameborder="0" allowFullscreen width="480" height="275"></iframe>
+
 <br/>
 
 <a href="https://play.google.com/store/apps/details?id=at.fhhgb.mc.swip" class="button">Get App</a>
