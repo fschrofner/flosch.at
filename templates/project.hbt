@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ title }} | Florian Schrofner</title>
-    
+              
     <link rel="icon" type="image/png" href="{{ base_url }}/favicon.png"/>
     <link rel="stylesheet" href="{{ base_url }}/styles/foundation/css/foundation.css" />
     <link rel="stylesheet" href="{{ base_url }}/styles/prism/prism.css"/>
@@ -73,7 +73,7 @@
           blueimp.Gallery(links, options);
         };
       </script>
-      
+            
     </section>
   </body>
   </div>
