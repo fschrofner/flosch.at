@@ -17,7 +17,7 @@ template: project.hbt
 
 <br/>
 
-Notify is an app which allows you to create and manage reminders, which will then be synced across multiple devices.  
+Notify is an app that allows you to create and manage reminders, which will then be synced across multiple devices.  
 
 After startup the first thing you have to do, is to select your Google account in order to enable the synchronisation feature.  
 Then the application will download all notifications that were created before (if there are any) and display them either in the "Current Notification" or the "Future Notification" tab.  

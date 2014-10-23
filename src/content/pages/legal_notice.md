@@ -11,5 +11,4 @@ Kreuzweg 3b
 5061 Elsbethen  
 AUSTRIA
 
-<a href="mailto:florian.schrofner@outlook.com" target="_top">
-florian.schrofner@outlook.com</a>
+<i class="fa fa-envelope fa-lg"></i> <span id="obfuscated_email"></span>
