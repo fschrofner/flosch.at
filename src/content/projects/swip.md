@@ -58,6 +58,7 @@ The app is currently in a beta stage (all important features are implemented and
 
 ###Reviews
 <a href="http://www.addictivetips.com/android/swip-free-profile-switching-automation-app-for-android/" target="_blank">Addictive Tips</a>  
+<a href="http://www.addictivetips.com/android/swip-is-a-profile-switcher-for-managing-sound-display-wifi/" target="_blank">Addictive Tips Usage Guide</a>
 <a href="http://dottech.org/149411/android-review-swip-app/" target="_blank">dotTech</a>  
 <a href="http://www.xda-developers.com/android/want-an-open-source-alternative-to-tasker-try-swip/" target="_blank">XDA developers</a>  
 <a href="http://www.androidios.com/how-to-set-smart-phone-profiles-quickly-and-easily-swipe-profileswitcher/" target="_blank">Android iOS</a> (seems to be a translation of <a href="http://www.svetandroida.cz/swip-profileswitcher-chytre-profily-telefon-rychle-jednoduse-201403" target="_blank">this</a> review)
