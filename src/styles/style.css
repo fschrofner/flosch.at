@@ -1,106 +1,135 @@
 header {
-/* Adjust the values accordingly to the 90px height.
-  (E.g. 30px padding-top, 30px font-size, 30px padding-bottom) */
+	/* Adjust the values accordingly to the 90px height.
+	   (E.g. 30px padding-top, 30px font-size, 30px padding-bottom) */
 	height: 90px;
 	background: #309a46;
 	padding: 32.2px 0;
 	margin-bottom: 40px;
 	color: #afe1da;
+       }
+
+/*registers the custom fonts*/
+@font-face {
+	    font-family: OpenSansLight;
+	    src: url("/fonts/open-sans/OpenSans-Light.ttf") format("opentype");
+	   }
+
+@font-face{
+    font-family: OpenSansRegular;
+    src: url("/fonts/open-sans/OpenSans-Regular.ttf") format("opentype");
 }
 
+@font-face{
+    font-family: OpenSansBold;
+    src: url("/fonts/open-sans/OpenSans-Bold.ttf") format("opentype");
+}
+
+
 #header_title{
-	color: white;
-	font-size: 1.6rem;
-	font-weight: bold;
-	margin: 0;
-	float: left;
-	height: 100%;
+    font-family: OpenSansLight,"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 0;
+    float: left;
+    height: 100%;
 }
 
 #header_menu{
-	height: 100%;
+    height: 100%;
 }
 
 #header_menu .nav{
-	font-size: 0.95rem;
-	float: right;
-	list-style: none;
-	margin: 0;
-	padding: 5.2px;
+    font-size: 0.95rem;
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 5.2px;
 }
 
 #header_menu .nav li{
-	display: inline;
+    display: inline;
 }
 
 #header_menu .nav a{
-	color: #afe1da;
-	font-weight: bold;
-	margin-left: 20px;
-	transition: color 0.7s, text-shadow 2s;
-	-webkit-transition: color 0.7s, text-shadow 2s; 
-	vertical-align: baseline;
+    font-family: OpenSansRegular,"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    color: #afe1da;
+    font-weight: bold;
+    margin-left: 20px;
+    transition: color 0.7s, text-shadow 2s;
+    -webkit-transition: color 0.7s, text-shadow 2s; 
+    vertical-align: baseline;
 }
 
 #header_menu .nav a:hover{
-	color: #ffffff;
-	/*text-shadow: 0 0 40px #ffffff;*/
+    color: #ffffff;
+/*text-shadow: 0 0 40px #ffffff;*/
 }
 
 h1 {
-  font-size: 2.0rem;
-}
+    font-family: OpenSansLight,"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    font-size: 2.0rem;
+   }
 
 h2 {
-  font-size: 1.7rem;
-}
+    font-family: OpenSansLight,"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    font-size: 1.7rem;
+   }
 
 h3 {
-  font-size: 1.5rem;
-}
+    font-family: OpenSansLight,"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    font-size: 1.5rem;
+   }
 
 h4 {
-  font-size: 1.2rem;
+    font-family: OpenSansBold,"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    font-size: 0.9rem;
+   }
+   
+p {
+    font-family: OpenSansRegular,"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
 }
 
 #content {
-  padding-bottom: 2.2rem;
-}
+	  font-family: OpenSansRegular,"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+	  padding-bottom: 2.2rem;
+	 }
 
 #footer {
-/*  padding-bottom: 0.3rem;*/
-  background: #fff;
-  color: grey;
-}
+	 /*  padding-bottom: 0.3rem;*/
+   font-family: OpenSansLight,"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+	 background: #fff;
+	 color: grey;
+	}
 
 #floating_panel {
-  margin-top: 22.5px;
-}
+		 margin-top: 22.5px;
+		}
 
 section.right-small{
-    box-shadow: none;
-    border-width: 0px;
-}
+		    box-shadow: none;
+		    border-width: 0px;
+		   }
 
 .right-off-canvas-menu{
-  background:#309a46;
-}
+		       background:#309a46;
+		      }
 
 ul.off-canvas-list li a{
-  color:#fff;
-}
+			color:#fff;
+		       }
 
 #platforms{
-  font-size: 0.9rem;
-  font-color: #222222;
-  font-style: normal;
-  font-weight: 300;
-  margin-top: 0px;
-  padding-bottom: 1rem;
-  text-rendering: optimizelegibility;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
-}
+	   font-size: 0.9rem;
+	   font-color: #222222;
+	   font-style: normal;
+	   font-weight: 300;
+	   margin-top: 0px;
+	   padding-bottom: 1rem;
+	   text-rendering: optimizelegibility;
+	   font-family: OpenSansRegular, 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
+	  }
 
 #android-icon{
-  color:#a4c639;
-}
+	      color:#a4c639;
+	     }
