@@ -7,15 +7,15 @@
     text-rendering: optimizelegibility;
     margin-bottom: 0px;
     padding-bottom: 0px;
-    font-family: "Open Sans","Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;
+    font-family: OpenSansLight,"Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;
 }
 
 #post_date {
-    font-size: 1.0rem;
+    font-size: 0.9rem;
     font-style: normal;
     font-weight: 300;
     margin-top: 0px;
     padding-bottom: 1rem;
     text-rendering: optimizelegibility;
-    font-family: "Open Sans","Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;
+    font-family: OpenSansLight,"Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;
 }

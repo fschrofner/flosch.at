@@ -19,15 +19,10 @@ template: project.hbt
 
 Notify is an app that allows you to create and manage reminders, which will then be synced across multiple devices.  
 
-After startup the first thing you have to do, is to select your Google account in order to enable the synchronisation feature.  
-Then the application will download all notifications that were created before (if there are any) and display them either in the "Current Notification" or the "Future Notification" tab.  
-These two tabs exist, because you can mark every notification with a timeframe in which they are valid. If the beginning of the timeframe hasn't been reached yet, it will end up in the future tab,
-if it was reached already it can be found inside the current tab. Unless of course, the timeframe was already exceeded, which will cause the reminder to vanish completely.  
-All current notifications will also be displayed as native Android notifications in the status bar.  
-
-The whole synchronisation is done by using a file-based approach for the reminders and sharing them using any cloud-service (in our case we decided to use Google Drive, since it didn't require any
+The whole synchronisation is done by using a file-based approach for the reminders and sharing them using a cloud-service (in our case we decided to use Google Drive, since it didn't require any
 additional application on Android phones).  
-After a new reminder has been created and uploaded, a push notification will be send to all other devices that registered with our [Aerogear push server](http://aerogear.org/push/), which is done on first launch.  
+After a new reminder has been created and uploaded, a push notification will be send to all other devices that registered with our [Aerogear push server](http://aerogear.org/push/) and share an
+alias with the device (the alias being the mail address used for Google Drive).  
 When receiving a push, all files will be updated from the server and reread, therefor changing existing reminders is also possible (using a really trivial version numbering system).  
 
 The whole application is more of a proof-of-concept, that you can build synchronisation around a file-based cloud service, rather than a really usable app.  

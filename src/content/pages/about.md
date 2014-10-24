@@ -22,7 +22,8 @@ Summer 2014 - Now:    [LOOP New Media](http://www.agentur-loop.com/)
 #About the site  
 This website was built with love and a cherry-picked selection of open source tools.  
 ~~The CMS behind the site is the slim and slick [Pico CMS](http://picocms.org)~~ This website was built with the unbelievably flexible [Metalsmith](http://www.metalsmith.io/), which allows me to keep it clean, simple and astonishing fast without using a database.  
-Responsiveness was done using the [Foundation Framework](http://foundation.zurb.com/), which was also responsible for the fonts and the buttons.  
+Responsiveness was done using the [Foundation Framework](http://foundation.zurb.com/), which was also responsible for ~~the fonts and~~ the buttons.  
+The font I'm using, is called [Open Sans](http://www.google.com/fonts/specimen/Open+Sans), which was commissioned by Google.  
 [PrismJS](http://prismjs.com/) is used for syntax-highlighting and I used some icons from [Font Awesome](http://fortawesome.github.io/Font-Awesome/).  
 The beautiful, responsive lightbox is done using [Blueimp Gallery](https://github.com/blueimp/Gallery).  
 The page was built on my Linux PC using the [Cherokee Webserver](http://cherokee-project.com/) and is now hosted on CentOS servers by [Uberspace](https://uberspace.de/).  
