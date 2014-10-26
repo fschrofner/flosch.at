@@ -66,6 +66,10 @@ header {
 /*text-shadow: 0 0 40px #ffffff;*/
 }
 
+ul.off-canvas-list {
+    font-family: OpenSansRegular,"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+}
+
 h1 {
     font-family: OpenSansLight,"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
     font-size: 2.0rem;

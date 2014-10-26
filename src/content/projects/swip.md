@@ -7,11 +7,11 @@ template: project.hbt
 #SwiP - ProfileSwitcher
 <div id="platforms">Platforms:  <i class="fa fa-android fa-lg"></i></div>
 <div id="cover">
-    <a href="/images/projects/screens/swip/gallery/swip_main.png" title="Main activity">
-        <img data-interchange="[/images/projects/screens/swip/swip_main_small.png, (default)], [/images/projects/screens/swip/swip_main.png, (large)]"/>
+    <a href="/images/projects/screens/swip/header/swip_main.png" title="Main activity">
+        <img data-interchange="[/images/projects/screens/swip/header/swip_main_small.png, (default)], [/images/projects/screens/swip/header/swip_main_large.png, (large)]"/>
     </a>
-    <a href="/images/projects/screens/swip/gallery/swip_profile_edit.png" title="Editing a profile">
-        <img data-interchange="[/images/projects/screens/swip/swip_profile_edit_small.png, (default)], [/images/projects/screens/swip/swip_profile_edit.png, (large)]"/>
+    <a href="/images/projects/screens/swip/header/swip_profile_edit.png" title="Editing a profile">
+        <img data-interchange="[/images/projects/screens/swip//header/swip_profile_edit_small.png, (default)], [/images/projects/screens/swip/header/swip_profile_edit_large.png, (large)]"/>
     </a>
 </div>  
 
