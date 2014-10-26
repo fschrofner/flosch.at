@@ -7,11 +7,11 @@ template: project.hbt
 #NFC Tag Filesharing  
 <div id="platforms">Platforms: <i class="fa fa-android fa-lg"></i> </div>  
 <div id="cover">
-    <a href="/images/projects/screens/nfc/gallery/nfc_select_file.png" title="Select file">
-        <img data-interchange="[/images/projects/screens/nfc/nfc_select_file_small.png, (default)], [/images/projects/screens/nfc/nfc_select_file.png, (large)]"/>
+    <a href="/images/projects/screens/nfc/header/nfc_select_file.png" title="Select file">
+        <img data-interchange="[/images/projects/screens/nfc/header/nfc_select_file_small.png, (default)], [/images/projects/screens/nfc/header/nfc_select_file_large.png, (large)]"/>
     </a>
-    <a href="/images/projects/screens/nfc/gallery/nfc_uploading.png" title="Uploading a file">
-        <img data-interchange="[/images/projects/screens/nfc/nfc_uploading_small.png, (default)], [/images/projects/screens/nfc/nfc_uploading.png, (large)]"/>
+    <a href="/images/projects/screens/nfc/header/nfc_uploading.png" title="Uploading a file">
+        <img data-interchange="[/images/projects/screens/nfc/header/nfc_uploading_small.png, (default)], [/images/projects/screens/nfc/header/nfc_uploading_large.png, (large)]"/>
     </a>
 </div>
 

@@ -1,15 +1,19 @@
 {
+  "//": "do not forget to set npm to use python2!",
   "name": "flosch.at",
   "description": "build script for the flosch.at website",
   "dependencies": {
-    "handlebars": ">= 2.0.0-alpha.4",
-    "metalsmith": "^0.9.0",
-    "metalsmith-collections": ">=0.4.1",
-    "metalsmith-excerpts": ">=1.0.0",
-    "metalsmith-markdown": ">=0.2.1",
-    "metalsmith-permalinks": ">=0.3.0",
-    "metalsmith-tags": ">=0.6.1",
-    "metalsmith-templates": ">=0.5.2",
-    "moment": ">=2.7.0"
+    "handlebars": "^2.0.0",
+    "metalsmith": "^1.0.1",
+    "metalsmith-branch": "^0.0.4",
+    "metalsmith-build-date": "^0.1.0",
+    "metalsmith-collections": "^0.6.0",
+    "metalsmith-convert": "0.0.5",
+    "metalsmith-excerpts": "^1.0.0",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-permalinks": "^0.4.0",
+    "metalsmith-tags": "^0.6.1",
+    "metalsmith-templates": "^0.6.0",
+    "moment": "^2.8.3"
   }
 }

@@ -7,11 +7,11 @@ template: project.hbt
 #Notify
 <div id="platforms">Platforms:  <i class="fa fa-android fa-lg"></i></div>
 <div id="cover">
-    <a href="/images/projects/screens/notify/gallery/notify_main.png" title="Main activity">
-        <img data-interchange="[/images/projects/screens/notify/notify_main_small.png, (default)], [/images/projects/screens/notify/notify_main.png, (large)]"/>
+    <a href="/images/projects/screens/notify/header/notify_main.png" title="Main activity">
+        <img data-interchange="[/images/projects/screens/notify/header/notify_main_small.png, (default)], [/images/projects/screens/notify/header/notify_main_large.png, (large)]"/>
     </a>
-    <a href="/images/projects/screens/notify/gallery/notify_edit.png" title="Editing a notification">
-        <img data-interchange="[/images/projects/screens/notify/notify_edit_small.png, (default)], [/images/projects/screens/notify/notify_edit.png, (large)]"/>
+    <a href="/images/projects/screens/notify/header/notify_edit.png" title="Editing a notification">
+        <img data-interchange="[/images/projects/screens/notify/header/notify_edit_small.png, (default)], [/images/projects/screens/notify/header/notify_edit_large.png, (large)]"/>
     </a>
 </div>  
 

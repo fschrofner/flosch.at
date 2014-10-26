@@ -113,7 +113,6 @@ metal.use(convert({
 //finally applies handlebars
 metal.use(templates({
     'engine': 'handlebars'
-//    'inPlace': true
 }));
 
 metal.build(function(err){
