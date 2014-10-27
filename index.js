@@ -86,7 +86,7 @@ metal.use(convert(
 		width: 270,
 		height: 480,
 	    },
-	    outputFilename: '%FILE%_large'
+	    nameFormat: '%b_large%e'
 	},{
 	    src: 'images/projects/screens/*/header/*.png',
 	    target: 'png',
@@ -94,7 +94,7 @@ metal.use(convert(
 		width: 160,
 		height: 284,
 	    },
-	    outputFilename: '%FILE%_small'
+	    nameFormat: '%b_small%e'
 	}
     ]
 ));
@@ -107,14 +107,11 @@ metal.use(convert({
 	width: 113,
 	height: 200,
     },
-    outputFilename: '%FILE%_thumb'
+    nameFormat: '%b_thumb%e'
 }));
 
 //finally applies handlebars
-metal.use(templates({
-    'engine': 'handlebars'
-//    'inPlace': true
-}));
+metal.use(templates('handlebars'));
 
 metal.build(function(err){
     if (err) throw err;
