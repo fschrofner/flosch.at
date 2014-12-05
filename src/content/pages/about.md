@@ -16,7 +16,8 @@ I hope I will be able to use these skills in my later career.
 ####Work
 Summer 2014 - Now:    [LOOP New Media](http://www.agentur-loop.com/)
 
-<i class="fa fa-envelope fa-lg"></i> <span id="obfuscated_email"></span> &nbsp; &nbsp; &nbsp; &nbsp; <i class="fa fa-skype fa-lg"></i> [Chat with me on Skype](skype:fschrofner?chat)
+<i class="fa fa-envelope fa-lg"></i> <span id="obfuscated_email"></span> &nbsp; &nbsp; &nbsp; &nbsp; <i class="fa fa-certificate fa-lg"></i> [Get PGP public key](/keys/florian_schrofner_pub.asc)
+&nbsp; &nbsp; &nbsp; &nbsp;<i class="fa fa-skype fa-lg"></i> [Chat with me on Skype](skype:fschrofner?chat)
 
 
 #About the site  
