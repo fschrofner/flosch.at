@@ -3,10 +3,20 @@ header {
 	   (E.g. 30px padding-top, 30px font-size, 30px padding-bottom) */
 	height: 90px;
 	background: #309a46;
-	padding: 32.2px 0;
+	/* padding: 32.2px 0;*/
 	margin-bottom: 40px;
 	color: #afe1da;
-       }
+}
+
+#header_top_line{
+    height: 4px;
+    width: 100%;
+    background: #dba901;
+}
+
+#header_content{
+    padding: 32.2px 0;
+}
 
 /*registers the custom fonts*/
 @font-face {
