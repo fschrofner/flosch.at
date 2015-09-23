@@ -2,7 +2,7 @@ var Handlebars = require('handlebars');
 var Metalsmith = require('metalsmith');
 var branch = require('metalsmith-branch');
 var collections = require('metalsmith-collections');
-var convert = require('metalsmith-convert');
+//var convert = require('metalsmith-convert');
 var date = require('metalsmith-build-date');
 var excerpts = require('metalsmith-excerpts');
 var fs = require('fs');
@@ -77,38 +77,38 @@ metal.use(tags({
 	 }));
 
 //converts the header pictures of projects for multiple resolutions
-metal.use(convert(
-    [
-	{
-	    src: 'images/projects/screens/*/header/*.png',
-	    target: 'png',
-	    resize: {
-		width: 270,
-		height: 480,
-	    },
-	    nameFormat: '%b_large%e'
-	},{
-	    src: 'images/projects/screens/*/header/*.png',
-	    target: 'png',
-	    resize: {
-		width: 160,
-		height: 284,
-	    },
-	    nameFormat: '%b_small%e'
-	}
-    ]
-));
+// metal.use(convert(
+//     [
+// 	{
+// 	    src: 'images/projects/screens/*/header/*.png',
+// 	    target: 'png',
+// 	    resize: {
+// 		width: 270,
+// 		height: 480,
+// 	    },
+// 	    nameFormat: '%b_large%e'
+// 	},{
+// 	    src: 'images/projects/screens/*/header/*.png',
+// 	    target: 'png',
+// 	    resize: {
+// 		width: 160,
+// 		height: 284,
+// 	    },
+// 	    nameFormat: '%b_small%e'
+// 	}
+//     ]
+// ));
 
 //converts the gallery thumbnails for every project
-metal.use(convert({
-    src: 'images/projects/screens/*/gallery/*.png',
-    target: 'png',
-    resize:{
-	width: 113,
-	height: 200,
-    },
-    nameFormat: '%b_thumb%e'
-}));
+// metal.use(convert({
+//     src: 'images/projects/screens/*/gallery/*.png',
+//     target: 'png',
+//     resize:{
+// 	width: 113,
+// 	height: 200,
+//     },
+//     nameFormat: '%b_thumb%e'
+// }));
 
 //finally applies handlebars
 metal.use(templates('handlebars'));
