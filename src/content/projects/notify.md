@@ -51,4 +51,4 @@ So for now you can only check out the source code, but no real app.
 
 <br/>
 
-<a href="https://bitbucket.org/FlorianSchrofner/notify" class="button">Get Source</a>
+<a href="https://bitbucket.org/fschrofner/notify" class="button">Get Source</a>
