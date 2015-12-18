@@ -1,11 +1,11 @@
 header {
-	/* Adjust the values accordingly to the 90px height.
+    /* Adjust the values accordingly to the 90px height.
 	   (E.g. 30px padding-top, 30px font-size, 30px padding-bottom) */
-	height: 90px;
-	background: #309a46;
-	/* padding: 32.2px 0;*/
-	margin-bottom: 40px;
-	color: #afe1da;
+    height: 90px;
+    background: #309a46;
+    /* padding: 32.2px 0;*/
+    margin-bottom: 40px;
+    color: #afe1da;
 }
 
 #header_top_line{
@@ -20,9 +20,9 @@ header {
 
 /*registers the custom fonts*/
 @font-face {
-	    font-family: OpenSansLight;
-	    src: url("/fonts/open-sans/OpenSans-Light.ttf") format("opentype");
-	   }
+    font-family: OpenSansLight;
+    src: url("/fonts/open-sans/OpenSans-Light.ttf") format("opentype");
+}
 
 @font-face{
     font-family: OpenSansRegular;
@@ -34,6 +34,15 @@ header {
     src: url("/fonts/open-sans/OpenSans-Bold.ttf") format("opentype");
 }
 
+@font-face {
+    font-family: HackBold;
+    src: url("/fonts/hack/Hack-Bold.ttf") format("opentype");
+}
+
+@font-face{
+    font-family: HackRegular;
+    src: url("/fonts/hack/Hack-Regular.ttf") format("opentype");
+}
 
 #header_title{
     font-family: OpenSansLight,"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
@@ -73,7 +82,7 @@ header {
 
 #header_menu .nav a:hover{
     color: #ffffff;
-/*text-shadow: 0 0 40px #ffffff;*/
+    /*text-shadow: 0 0 40px #ffffff;*/
 }
 
 ul.off-canvas-list {
@@ -83,67 +92,67 @@ ul.off-canvas-list {
 h1 {
     font-family: OpenSansLight,"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
     font-size: 2.0rem;
-   }
+}
 
 h2 {
     font-family: OpenSansLight,"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
     font-size: 1.7rem;
-   }
+}
 
 h3 {
     font-family: OpenSansLight,"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
     font-size: 1.5rem;
-   }
+}
 
 h4 {
     font-family: OpenSansBold,"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
     font-size: 0.9rem;
-   }
-   
+}
+
 p {
     font-family: OpenSansRegular,"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
 }
 
 #content {
-	  font-family: OpenSansRegular,"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
-	  padding-bottom: 2.2rem;
-	 }
+    font-family: OpenSansRegular,"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    padding-bottom: 2.2rem;
+}
 
 #footer {
-	 /*  padding-bottom: 0.3rem;*/
-   font-family: OpenSansLight,"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
-	 background: #fff;
-	 color: grey;
-	}
+    /*  padding-bottom: 0.3rem;*/
+    font-family: OpenSansLight,"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    background: #fff;
+    color: grey;
+}
 
 #floating_panel {
-		 margin-top: 22.5px;
-		}
+    margin-top: 22.5px;
+}
 
 section.right-small{
-		    box-shadow: none;
-		    border-width: 0px;
-		   }
+    box-shadow: none;
+    border-width: 0px;
+}
 
 .right-off-canvas-menu{
-		       background:#309a46;
-		      }
+    background:#309a46;
+}
 
 ul.off-canvas-list li a{
-			color:#fff;
-		       }
+    color:#fff;
+}
 
 #platforms{
-	   font-size: 0.9rem;
-	   font-color: #222222;
-	   font-style: normal;
-	   font-weight: 300;
-	   margin-top: 0px;
-	   padding-bottom: 1rem;
-	   text-rendering: optimizelegibility;
-	   font-family: OpenSansRegular, 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
-	  }
+    font-size: 0.9rem;
+    font-color: #222222;
+    font-style: normal;
+    font-weight: 300;
+    margin-top: 0px;
+    padding-bottom: 1rem;
+    text-rendering: optimizelegibility;
+    font-family: OpenSansRegular, 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
+}
 
 #android-icon{
-	      color:#a4c639;
-	     }
+    color:#a4c639;
+}
