@@ -15,5 +15,8 @@
     "metalsmith-tags": "^0.6.1",
     "metalsmith-templates": "^0.6.0",
     "moment": "^2.8.3"
+  },
+  "devDependencies": {
+    "metalsmith-prism": "^2.1.1"
   }
 }
