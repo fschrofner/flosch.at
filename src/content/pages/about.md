@@ -7,20 +7,20 @@ template: default.hbt
 #About me
 I'm a 23 year old  student from Salzburg, Austria.  
 At the moment I'm majoring in Mobile Computing at the University of Applied Sciences [Hagenberg](http://www-en.fh-ooe.at/hagenberg-campus/).  
-I am a huge fan of free & open source software, [music](http://www.last.fm/user/FlowingKashmir) and cooking.  
+I am a huge fan of free & open source software, [non-mainstream movies](https://mubi.com/users/7455172), [music](http://www.last.fm/user/FlowingKashmir) and cooking.  
 Even though I was always quite interested in the field of informatics, I just recently decided to make it my profession and enrolled at one of the most reputable universities of Austria.  
 Before that I was heavily focusing on Western European languages in [grammar school](http://www.bgnonntal.at/), which gave me some great insights into other cultures and ways of living.  
 The languages I've learned include English, French, Italian and Latin (just  mentioned for completeness).  
 I hope I will be able to use these skills in my later career.  
 
 ###Work
-####06.2014 - 08.2014
-
-Mobile Dev Intern @ [LOOP New Media](http://www.agentur-loop.com/) [Salzburg, Austria]
-
 ####02.2015 - 07.2015
 
 Mobile Dev @ [LOOP New Media](http://www.agentur-loop.com/) [New York City, USA]
+
+####06.2014 - 08.2014
+
+Mobile Dev Intern @ [LOOP New Media](http://www.agentur-loop.com/) [Salzburg, Austria]
 
 ###Education
 Bachelor of Science in Engineering @ [University of Applied Sciences Hagenberg](http://www-en.fh-ooe.at/hagenberg-campus) [Hagenberg, Austria]
@@ -37,3 +37,4 @@ The main font I'm using, is called [Open Sans](http://www.google.com/fonts/speci
 [PrismJS](http://prismjs.com/) is used for syntax-highlighting and I used some icons from [Font Awesome](http://fortawesome.github.io/Font-Awesome/).  
 The beautiful, responsive lightbox is done using [Blueimp Gallery](https://github.com/blueimp/Gallery).  
 The page was built on my Linux PC using [nginx](http://nginx.org/) and is now hosted by the same on a XEN server by [HostSailor](https://hostsailor.com).  
+My changes to this website are done in public, you can find the source code [here](https://bitbucket.org/fschrofner/flosch.at/)

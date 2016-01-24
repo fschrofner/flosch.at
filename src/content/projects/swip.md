@@ -81,5 +81,5 @@ The app is currently in a beta stage (all important features are implemented and
 
 <br/>
 
-<a href="https://play.google.com/store/apps/details?id=at.fhhgb.mc.swip" class="button">Get App</a>
-<a href="https://bitbucket.org/fschrofner/swip" class="button">Get Source</a>
+<a href="https://play.google.com/store/apps/details?id=at.fhhgb.mc.swip" class="warning hollow button">Get App</a>
+<a href="https://bitbucket.org/fschrofner/swip" class="warning hollow button">Get Source</a>

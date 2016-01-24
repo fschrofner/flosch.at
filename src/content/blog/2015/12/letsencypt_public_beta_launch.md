@@ -42,7 +42,7 @@ Now you have to enter the domain names you want to get a certificate for, wait a
         <img src="/images/blog/2015/12/ssl_rating_thumb.png" alt="SSL Labs Rating">
     </a>
 </div>
-
+<br/>
 
 Getting the certificate is only half of the work. Next you need to reference the certificate inside your server settings and define the right ciphers, so that your website really gets secure. As you are hosting your own webserver, I just assume that you know how to configure the certificates themselves correctly (if you are using nginx, you can take a look at the example below).
 
