@@ -31,3 +31,32 @@
 #bb-icon:hover{
   color:#193d6e;
 }
+
+/* the cursor for typedjs */
+.typed-cursor{
+    font-family: OpenSansLight,"Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
