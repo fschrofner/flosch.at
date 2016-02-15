@@ -14,32 +14,6 @@
 	
 	<script src="{{ base_url }}/styles/foundation/js/modernizr.js"></script>
 	<script src="{{ base_url }}/styles/foundation/js/jquery.js"></script>
-	<script src="{{ base_url }}/scripts/typed.min.js"></script>
-	
-	<script>
-	 $(function(){
-	     $("#header_title").typed({
-		 strings: ["flosch", "Florian Schrofner"],
-		 typeSpeed: 180,
-		 backSpeed: 80,
-		 backDelay: 100,
-		 preStringTyped: function(){
-		     if($.numberOfStringsTyped == null){
-			 $.numberOfStringsTyped = 0;
-		     }
-		 },
-		 onStringTyped: function(){
-		     if($.numberOfStringsTyped < 1){
-			 $.numberOfStringsTyped++;
-		     } else {
-			 setTimeout(function(){
-			     $(".typed-cursor").fadeOut();
-			 }, 2000);
-		     }
-		 }
-	     });
-	 });
-	</script>
 	
     </head>
     <div class="off-canvas-wrap">
