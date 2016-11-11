@@ -10,7 +10,7 @@ var markdown = require('metalsmith-markdown');
 var moment = require('moment');
 var permalinks = require('metalsmith-permalinks');
 var tags = require('metalsmith-tags');
-var templates = require('metalsmith-templates');
+var layouts = require('metalsmith-layouts');
 
 Handlebars.registerPartial('header',fs.readFileSync(__dirname + '/templates/partials/header.hbt').toString());
 Handlebars.registerPartial('footer',fs.readFileSync(__dirname + '/templates/partials/footer.hbt').toString());
@@ -68,7 +68,7 @@ metal.use(branch(isPost)
 metal.use(tags({
     handle: 'tags',                   // yaml key for tag list in you pages
     path:'tag',                       // path for result pages
-    template:'../templates/tag.hbt',  // template to use for tag listing
+    layout:'../templates/tag.hbt',  // template to use for tag listing
     sortBy: 'date',                   // provide posts sorted by 'date' (optional)
     reverse: true                     // sort direction (optional)
 })
@@ -111,7 +111,9 @@ metal.use(tags({
 // }));
 
 //finally applies handlebars
-metal.use(templates('handlebars'));
+metal.use(layouts({
+    engine: 'handlebars'
+}));
 
 metal.build(function(err){
     if (err) throw err;
