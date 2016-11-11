@@ -77,6 +77,7 @@ metal.use(tags({
 	 }));
 
 //converts the header pictures of projects for multiple resolutions
+//requires metalsmith-convert to be added as dependency
 // metal.use(convert(
 //     [
 // 	{
