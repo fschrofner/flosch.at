@@ -5,7 +5,7 @@ template: default.hbt
 ---
 
 #About me
-I'm a 23 year old  student from Salzburg, Austria.  
+I'm a 24 year old  student from Salzburg, Austria.  
 At the moment I'm majoring in Mobile Computing at the University of Applied Sciences [Hagenberg](http://www-en.fh-ooe.at/hagenberg-campus/).  
 I am a huge fan of free & open source software, [non-mainstream movies](https://mubi.com/users/7455172), [music](http://www.last.fm/user/FlowingKashmir) and cooking.  
 Even though I was always quite interested in the field of informatics, I just recently decided to make it my profession and enrolled at one of the most reputable universities of Austria.  

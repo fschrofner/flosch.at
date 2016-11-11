@@ -1,22 +1,22 @@
 {
-  "//": "do not forget to set npm to use python2!",
-  "name": "flosch.at",
-  "description": "build script for the flosch.at website",
-  "dependencies": {
-    "handlebars": "^2.0.0",
-    "metalsmith": "^1.0.1",
-    "metalsmith-branch": "^0.0.4",
-    "metalsmith-build-date": "^0.1.0",
-    "metalsmith-collections": "^0.6.0",
-    "metalsmith-convert": "^0.1.0",
-    "metalsmith-excerpts": "^1.0.0",
-    "metalsmith-markdown": "^0.2.1",
-    "metalsmith-permalinks": "^0.4.0",
-    "metalsmith-tags": "^0.6.1",
-    "metalsmith-templates": "^0.6.0",
-    "moment": "^2.8.3"
-  },
-  "devDependencies": {
-    "metalsmith-prism": "^2.1.1"
-  }
+    "//": "do not forget to set npm to use python2!",
+    "name": "flosch.at",
+    "description": "build script for the flosch.at website",
+    "dependencies": {
+	"handlebars": "^4.0.5",
+	"metalsmith": "^2.3.0",
+	"metalsmith-branch": "0.0.4",
+	"metalsmith-build-date": "^0.2.0",
+	"metalsmith-collections": "^0.9.0",
+	"metalsmith-excerpts": "^1.1.0",
+	"metalsmith-layouts": "^1.7.0",
+	"metalsmith-markdown": "^0.2.1",
+	"metalsmith-permalinks": "^0.5.0",
+	"metalsmith-tags": "^2.0.0",
+	"moment": "^2.16.0"
+	"//": "metalsmith-convert"
+    },
+    "devDependencies": {
+	"metalsmith-prism": "*"
+    }
 }
