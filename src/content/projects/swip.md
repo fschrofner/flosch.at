@@ -1,7 +1,7 @@
 ---
 title: SwiP
 description: An intelligent profile switching app.
-template: project.hbt
+layout: project.hbt
 ---
 
 #SwiP - ProfileSwitcher

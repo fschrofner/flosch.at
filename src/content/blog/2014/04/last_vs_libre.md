@@ -4,7 +4,7 @@ description: My thoughts about the libre.fm webservice
 author: Florian Schrofner
 date: 2014-04-24
 tags: goingFOSS,web
-template: post.hbt
+layout: post.hbt
 ---
 
 Since I've started using Linux I'm constantly trying to switch to open source 

@@ -4,7 +4,7 @@ description: My very first blogpost!
 author: Florian Schrofner
 date: 2014-03-10 
 tags: offtopic,personal
-template: post.hbt
+layout: post.hbt
 ---
 
 ###So you got your blog.. now what?

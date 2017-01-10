@@ -1,10 +1,10 @@
 ---
 title: Projects
 description: Here's a collection of software projects I have done/am currently working on.
-template: default.hbt
+layout: default.hbt
 ---
 
-#Projects
+#Projects  
 Here's an overview of my projects.  
 If you want to take a closer look at one of them just click on the according icon.  
 <br/>

@@ -4,7 +4,7 @@ description: Just a short update about the recent website change
 author: Florian Schrofner
 date: 2014-12-05
 tags: goingFOSS,web
-template: post.hbt
+layout: post.hbt
 ---
 
 Probably most (or all) of you people didn't even recognize the changes I've made in the last few months, but the website now switched to a different CMS under the hood.  

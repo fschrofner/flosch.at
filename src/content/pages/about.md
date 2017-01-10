@@ -1,10 +1,10 @@
 ---
 title: About
 description: Some information about me and my site.
-template: default.hbt
+layout: default.hbt
 ---
 
-#About me
+#About me  
 I'm a 24 year old  student from Salzburg, Austria.  
 At the moment I'm majoring in Mobile Computing at the University of Applied Sciences [Hagenberg](http://www-en.fh-ooe.at/hagenberg-campus/).  
 I am a huge fan of free & open source software, [non-mainstream movies](https://mubi.com/users/7455172), [music](http://www.last.fm/user/FlowingKashmir) and cooking.  
@@ -13,16 +13,16 @@ Before that I was heavily focusing on Western European languages in [grammar sch
 The languages I've learned include English, French, Italian and Latin (just  mentioned for completeness).  
 I hope I will be able to use these skills in my later career.  
 
-###Work
-####02.2015 - 07.2015
+###Work  
+####02.2015 - 07.2015  
 
 Mobile Dev @ [LOOP New Media](http://www.agentur-loop.com/) [New York City, USA]
 
-####06.2014 - 08.2014
+####06.2014 - 08.2014 & 07.2016 - 10.2016  
 
-Mobile Dev Intern @ [LOOP New Media](http://www.agentur-loop.com/) [Salzburg, Austria]
+Mobile Dev (Intern) @ [LOOP New Media](http://www.agentur-loop.com/) [Salzburg, Austria]
 
-###Education
+###Education  
 Bachelor of Science in Engineering @ [University of Applied Sciences Hagenberg](http://www-en.fh-ooe.at/hagenberg-campus) [Hagenberg, Austria]
 
 <i class="fa fa-envelope fa-lg"></i> <span id="obfuscated_email"></span> &nbsp; &nbsp; &nbsp; &nbsp; <i class="fa fa-certificate fa-lg"></i> [Get PGP public key](/keys/florian_schrofner_pub.asc)

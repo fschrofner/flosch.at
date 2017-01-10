@@ -1,7 +1,7 @@
 ---
 title: Legal Notice
 description: I'm required to include this site..
-template: default.hbt
+layout: default.hbt
 ---
 
 ###Concept & Content
