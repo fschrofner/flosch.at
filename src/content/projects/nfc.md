@@ -1,7 +1,7 @@
 ---
 title: NFC Tag Filesharing
 description: A convenient way of sharing files over nfc tags.
-template: project.hbt
+layout: project.hbt
 ---
 
 #NFC Tag Filesharing  

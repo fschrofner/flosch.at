@@ -17,24 +17,25 @@
   <div class="off-canvas-wrap">
     <div class="inner-wrap">
       <body>
+        
         <section class="main-section">
           {{> header}}
-      
+          
           <section id="content">
             <div class="row">
               <div class="small-12 columns">
-                {{> tags}}
+                {{{ contents }}}
               </div>
             </div>
           </section>
           {{> footer}}
-          
           <a class="exit-off-canvas"></a>
           <script src="{{ base_url }}/styles/foundation/js/jquery.js"></script>
           <script src="{{ base_url }}/styles/foundation/js/foundation/foundation.js"></script>
           <script src="{{ base_url }}/styles/foundation/js/foundation.min.js"></script>
           <script src="{{ base_url }}/styles/foundation/js/foundation/foundation.clearing.js"></script>
           <script src="{{ base_url }}/scripts/sticky_footer.js"></script>
+          <script src="{{ base_url }}/scripts/decrypt_email.js"></script>
           <script src="{{ base_url }}/styles/prism/prism.js"></script>
           <script>
             $(document).foundation();
@@ -44,5 +45,3 @@
     </div>
   </div>
 </html>
-
-

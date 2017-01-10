@@ -12,17 +12,14 @@ var permalinks = require('metalsmith-permalinks');
 var tags = require('metalsmith-tags');
 var layouts = require('metalsmith-layouts');
 
-Handlebars.registerPartial('header',fs.readFileSync(__dirname + '/templates/partials/header.hbt').toString());
-Handlebars.registerPartial('footer',fs.readFileSync(__dirname + '/templates/partials/footer.hbt').toString());
-Handlebars.registerPartial('blog_posts',fs.readFileSync(__dirname + '/templates/partials/blog_posts.hbt').toString());
-Handlebars.registerPartial('tags',fs.readFileSync(__dirname + '/templates/partials/tags.hbt').toString());
-Handlebars.registerPartial('post_header',fs.readFileSync(__dirname + '/templates/partials/post_header.hbt').toString());
 Handlebars.registerHelper('formatDate', formatDate);
 Handlebars.registerHelper('toLowerCase', toLowerCase);
 
 var metal = Metalsmith(__dirname);
 metal.source('./src');
 metal.destination('./build');
+//metal.clean(true);
+
 
 metal.use(date());
 
@@ -68,7 +65,7 @@ metal.use(branch(isPost)
 metal.use(tags({
     handle: 'tags',                   // yaml key for tag list in you pages
     path:'tag',                       // path for result pages
-    layout:'../templates/tag.hbt',  // template to use for tag listing
+    layout:'../layouts/tag.hbt',      // template to use for tag listing
     sortBy: 'date',                   // provide posts sorted by 'date' (optional)
     reverse: true                     // sort direction (optional)
 })
@@ -113,7 +110,8 @@ metal.use(tags({
 
 //finally applies handlebars
 metal.use(layouts({
-    engine: 'handlebars'
+    engine: 'handlebars',
+    partials: './layouts/partials'
 }));
 
 metal.build(function(err){
@@ -150,5 +148,5 @@ function formatDate(_datetime, _format) {
 }
 
 function toLowerCase(_input){
-    return _input.toLowerCase();
+    return _input.toString().toLowerCase();
 }

@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="{{ base_url }}/styles/foundation/css/foundation.css" />
     <link rel="stylesheet" href="{{ base_url }}/styles/prism/prism.css"/>
     <link rel="stylesheet" href="{{ base_url }}/styles/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="{{ base_url }}/styles/blueimp-gallery/css/blueimp-gallery.min.css"/>
     <link rel="stylesheet" href="{{ base_url }}/styles/style.css" />
+    <link rel="stylesheet" href="{{ base_url }}/styles/additional_post.css" />
     
     <script src="{{ base_url }}/styles/foundation/js/modernizr.js"></script>
     
@@ -17,18 +19,29 @@
   <div class="off-canvas-wrap">
     <div class="inner-wrap">
       <body>
+        
+        <div id="blueimp-gallery" class="blueimp-gallery">
+          <div class="slides"></div>
+          <h3 class="title"></h3>
+          <a class="prev">‹</a>
+          <a class="next">›</a>
+          <a class="close">×</a>
+          <a class="play-pause"></a>
+          <ol class="indicator"></ol>
+        </div>
+        
         <section class="main-section">
           {{> header}}
-      
+          
           <section id="content">
             <div class="row">
               <div class="small-12 columns">
-                {{> blog_posts}}
+                {{> post_header}}
+                {{{ contents }}}
               </div>
             </div>
           </section>
           {{> footer}}
-          
           <a class="exit-off-canvas"></a>
           <script src="{{ base_url }}/styles/foundation/js/jquery.js"></script>
           <script src="{{ base_url }}/styles/foundation/js/foundation/foundation.js"></script>
@@ -36,13 +49,24 @@
           <script src="{{ base_url }}/styles/foundation/js/foundation/foundation.clearing.js"></script>
           <script src="{{ base_url }}/scripts/sticky_footer.js"></script>
           <script src="{{ base_url }}/styles/prism/prism.js"></script>
+          <script src="{{ base_url}}/styles/blueimp-gallery/js/blueimp-gallery.min.js"></script>
+          
           <script>
             $(document).foundation();
+          </script>
+          
+          <script>
+            document.getElementById('pictures').onclick = function (event) {
+            event = event || window.event;
+            var target = event.target || event.srcElement,
+            link = target.src ? target.parentNode : target,
+            options = {index: link, event: event},
+            links = this.getElementsByTagName('a');
+            blueimp.Gallery(links, options);
+            };
           </script>
         </section>
       </body>
     </div>
   </div>
 </html>
-
-

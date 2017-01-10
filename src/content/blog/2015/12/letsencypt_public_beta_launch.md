@@ -4,7 +4,7 @@ description: Letsencrypt has launched its public beta, let's have a quick look a
 author: Florian Schrofner
 date: 2015-12-18
 tags: goingFOSS,web,showcase
-template: post.hbt
+layout: post.hbt
 ---
 
 [Letsencrypt](https://letsencrypt.org/) has launched its public beta, and I (more than a year after my last blog post) have finally found something to talk about again. 

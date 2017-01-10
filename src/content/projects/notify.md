@@ -1,7 +1,7 @@
 ---
 title: Notify
 description: Timed, cross-device reminders for Android.
-template: project.hbt
+layout: project.hbt
 ---
 
 #Notify
