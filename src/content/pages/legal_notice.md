@@ -4,7 +4,7 @@ description: I'm required to include this site..
 layout: default.hbt
 ---
 
-###Concept & Content
+### Concept & Content
 
 Florian Schrofner  
 Kreuzweg 3b  

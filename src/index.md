@@ -7,7 +7,7 @@ layout: home.hbt
 <p/>
 ![It's a me!](/images/profile.png)
 
-#Welcome!
+# Welcome!
 My name is Florian Schrofner and I'm currently doing my Master's in Mobile Computing at the University of Applied Sciences Hagenberg.  
 I've already developed native mobile apps for Android and iOS, as well as crossplatform apps using Qt and Ionic, releasing some of  my finished work under open-source licences.  
 Welcome to my personal website and blog where you can find some information about me and my projects.  

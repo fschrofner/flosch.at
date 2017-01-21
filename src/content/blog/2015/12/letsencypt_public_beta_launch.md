@@ -11,7 +11,7 @@ layout: post.hbt
 
 But first things first. Some of you might not even know what the hype around Letsencrypt is about or what Letsencrypt itself actually is. So I'll try to explain shortly why it is something to have an eye on.
 
-###Encryption on the internet
+### Encryption on the internet
 
 You have hopefully already encountered several sites on the internet that use encryption (recognisable by the leading "https://"). Encryption has been a vital part of it for nearly two decades now, but was mostly used on sites that absolutely require it (like e-banking or shopping). This is primarily because of two reasons: first using encryption requires more computational power, second getting a certificate can be quite expensive.  
 The first issue lost a bit of relevance as technology advanced and we got more computational power at our disposal than ever before. The second issue is the one that is being attacked by Letsencrypt.
@@ -24,7 +24,7 @@ What they do is: they verify the ownership of a website and then provide the web
 
 In order to verify your identity, the certificate authorities require you to send them some kind of proof of your identity, like a scan of your passport. They will then check your identity against the data which was used to register your domain. If the two match each other, they will provide you with a certificate for the specified domain. Of course they require you to pay a certain amount of money, especially since they also need to pay their employees, who will verify your identity.
 
-###Letsencrypt's approach
+### Letsencrypt's approach
 So what does Letsencrypt do differently?
 Letsencrypt does not have any employees that will verify your identity, neither does it require you to send them any verification of your identity. Instead of comparing the domain info and your info, it just skips that step and directly verifies that you own that domain. It does so by requiring you to install their software on your server, which will then change the content of your website, that is reachable under your domain. They will then check if they can verify those changes using their backend software. Currently Letsencrypt supports Apache and nginx (still experimental), as well as a standalone approach, which will require you to stop your webserver for the process. In order to guarantee security, those certificates are only valid for a remarkably short period of time (~90 days), and they are already planning to even lower that period further. This clearly shows that they want you to automate this process, instead of manually requesting this certificate every time.
 
@@ -36,7 +36,7 @@ cd ./letsencrypt
 
 Now you have to enter the domain names you want to get a certificate for, wait a little and then you're all set for an encrypted website.
 
-###Getting TLS right
+### Getting TLS right
 <div id="pictures">
     <a href="/images/blog/2015/12/ssl_rating.png" title="SSL Labs Rating">
         <img src="/images/blog/2015/12/ssl_rating_thumb.png" alt="SSL Labs Rating">

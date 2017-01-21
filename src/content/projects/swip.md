@@ -4,7 +4,7 @@ description: An intelligent profile switching app.
 layout: project.hbt
 ---
 
-#SwiP - ProfileSwitcher
+# SwiP - ProfileSwitcher
 <div id="platforms">Platforms:  <i class="fa fa-android fa-lg"></i></div>
 <div id="cover">
     <a href="/images/projects/screens/swip/header/swip_main.png" title="Main activity">
@@ -20,29 +20,29 @@ layout: project.hbt
 SwiP is an intelligent profile app for Android.  
 It's meant to be an open source alternative to well-known apps like LLama and Trigger(though in a much smaller scale at the moment), which still offers some unique features.  
 
-###Profiles
+### Profiles
 SwiP allows you to create, manage and apply profiles which can contain the following settings:  
 
-####Sound
+#### Sound
 - Ringer Mode
 - Ringtone- & Notification Volume
 - Media Volume
 - Alarm Volume  
 
-####Connectivity
+#### Connectivity
 - GPS
 - Mobile Data
 - WiFi
 - Bluetooth
 
-####Display
+#### Display
 - Automatic Brightness
 - Brightness
 - Display Time Out  
 
 There are also some features which are unfortunately only available for rooted phones like NFC, Airplane Mode and Lockscreen.  
 
-###Triggers
+### Triggers
 Furthermore the app offers trigger-management. A trigger basically defines a rule for the automatic application of selected profiles.  
 The user is able to create said triggers and to use them for his daily workflow.  
 A trigger can contain the following rules:
@@ -56,14 +56,14 @@ A trigger can contain the following rules:
 These rules can be freely combined (e.g. at a certain location AND a certain time).  
 The app is currently in a beta stage (all important features are implemented and should basically work, but are not tested on a wide range of devices).  
 
-###Reviews
+### Reviews
 <a href="http://www.addictivetips.com/android/swip-free-profile-switching-automation-app-for-android/" target="_blank">Addictive Tips</a>  
 <a href="http://www.addictivetips.com/android/swip-is-a-profile-switcher-for-managing-sound-display-wifi/" target="_blank">Addictive Tips Usage Guide</a>  
 <a href="http://dottech.org/149411/android-review-swip-app/" target="_blank">dotTech</a>  
 <a href="http://www.xda-developers.com/android/want-an-open-source-alternative-to-tasker-try-swip/" target="_blank">XDA developers</a>  
 <a href="http://www.androidios.com/how-to-set-smart-phone-profiles-quickly-and-easily-swipe-profileswitcher/" target="_blank">Android iOS</a> (seems to be a translation of <a href="http://www.svetandroida.cz/swip-profileswitcher-chytre-profily-telefon-rychle-jednoduse-201403" target="_blank">this</a> review)
 
-###Screenshots
+### Screenshots
 <div id="screens">
     <a href="/images/projects/screens/swip/gallery/swip_change_volume.png" title="Changing the media volume">
         <img src="/images/projects/screens/swip/gallery/swip_change_volume_thumb.png" alt="change volume"/>
