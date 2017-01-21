@@ -4,7 +4,7 @@ description: Timed, cross-device reminders for Android.
 layout: project.hbt
 ---
 
-#Notify
+# Notify
 <div id="platforms">Platforms:  <i class="fa fa-android fa-lg"></i></div>
 <div id="cover">
     <a href="/images/projects/screens/notify/header/notify_main.png" title="Main activity">
@@ -28,12 +28,12 @@ When receiving a push, all files will be updated from the server and reread, the
 The whole application is more of a proof-of-concept, that you can build synchronisation around a file-based cloud service, rather than a really usable app.  
 One of the reasons you can't use it in production is that Aerogear doesn't normally allow endusers to send push notification to other users,
 therefor there is no other key than the masterkey, which you should, of course, not hand out to anybody.
-We had to build a [broker server](https://bitbucket.org/FlorianSchrofner/notify-broker) around that, which does nothing more than
+We had to build a [broker server](https://bitbucket.org/fschrofner/notify-broker) around that, which does nothing more than
 accepting requests without authentication and then forwarding them to the real push server using the masterkey.  
 If Aerogear allows endusers to send push notifications too someday, we might think about continuing the project, but it doesn't make much sense now..  
 So for now you can only check out the source code, but no real app.
 
-###Screenshots
+### Screenshots
 <div id="screens">
     <a href="/images/projects/screens/notify/gallery/notify_account_selection.png" title="Selecting the Google account to sync with">
         <img src="/images/projects/screens/notify/gallery/notify_account_selection_thumb.png" alt="select account"/>

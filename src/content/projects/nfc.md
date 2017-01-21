@@ -4,7 +4,7 @@ description: A convenient way of sharing files over nfc tags.
 layout: project.hbt
 ---
 
-#NFC Tag Filesharing  
+# NFC Tag Filesharing  
 <div id="platforms">Platforms: <i class="fa fa-android fa-lg"></i> </div>  
 <div id="cover">
     <a href="/images/projects/screens/nfc/header/nfc_select_file.png" title="Select file">
@@ -28,7 +28,7 @@ I still think it was a neat project.
 If you're interested you can check it out at the links below!  
 (The app isn't available on Google Play yet, but most certainly will be in the near future)  
 
-###Screenshots
+### Screenshots
 <div id="screens">
     <a href="/images/projects/screens/nfc/gallery/nfc_start.png" title="Start writing">
         <img src="/images/projects/screens/nfc/gallery/nfc_start_thumb.png" alt="start writing"/>
