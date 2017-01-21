@@ -7,7 +7,7 @@
 </div>
 
 {{#each this.tags}}
-  <a href="/tag/{{ toLowerCase this }}">#{{ this }}</a>
+  <a href="/tag/{{ toLowerCase this.name }}">#{{ this.name }}</a>
 {{/each}}
 
 <hr/>

@@ -64,14 +64,11 @@ metal.use(branch(isPost)
 //create tag pages for blogposts, must be called before the handlebars will be applied
 metal.use(tags({
     handle: 'tags',                   // yaml key for tag list in you pages
-    path:'tag',                       // path for result pages
+    path:'tag/:tag/index.html',       // path for result pages
     layout:'../layouts/tag.hbt',      // template to use for tag listing
     sortBy: 'date',                   // provide posts sorted by 'date' (optional)
     reverse: true                     // sort direction (optional)
-})
-	 ).use(permalinks({
-	     pattern:'tag/:tag'
-	 }));
+}));
 
 //converts the header pictures of projects for multiple resolutions
 //requires metalsmith-convert to be added as dependency
