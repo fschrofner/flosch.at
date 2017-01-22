@@ -44,4 +44,4 @@ If you're interested you can check it out at the links below!
 <br/>
 
 <a href="https://bitbucket.org/fschrofner/nfctagfilesharing/downloads" class="warning hollow button">Get App</a>
-<a href="https://bitbucket.org/fschrofner/nfctagfilesharing" class="warning hollow button">Get Source</a>
+<a href="https://github.com/fschrofner/nfctagfilesharing" class="warning hollow button">Get Source</a>

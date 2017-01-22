@@ -19,6 +19,6 @@ You should consider this website to be my virtual portfolio & playground.
 <a href="https://twitter.com/fschrofner" target="_blank" class="icons">
   <i class="fa fa-twitter-square fa-3x" id="tw-icon" style="margin-left:1rem"></i>
 </a>
-<a href="https://bitbucket.org/fschrofner" target="_blank" class="icons">
-  <i class="fa fa-bitbucket-square fa-3x"  id="bb-icon" style="margin-left:1rem"></i>
+<a href="https://github.com/fschrofner" target="_blank" class="icons">
+  <i class="fa fa-github-square fa-3x"  id="gh-icon" style="margin-left:1rem"></i>
 </a>

@@ -1,35 +1,35 @@
 #content{
-  text-align:center;
+    text-align:center;
 }
 
 #fb-icon{
-  margin-top: 2.0rem;
-  color:#222222;
-  transition: color 0.7s;
+    margin-top: 2.0rem;
+    color:#222222;
+    transition: color 0.7s;
 }
 
 #fb-icon:hover{
-  color:#3b5998;
+    color:#3b5998;
 }
 
 #tw-icon{
-  margin-top: 2.0rem;
-  color:#222222;
-  transition: color 0.7s;
+    margin-top: 2.0rem;
+    color:#222222;
+    transition: color 0.7s;
 }
 
 #tw-icon:hover{
-  color:#1ab2e8;
+    color:#1ab2e8;
 }
 
-#bb-icon{
-  margin-top: 2.0rem;
-  color:#222222;
-  transition: color 0.7s;
+#gh-icon{
+    margin-top: 2.0rem;
+    color:#222222;
+    transition: color 0.7s;
 }
 
-#bb-icon:hover{
-  color:#193d6e;
+#gh-icon:hover{
+    color:#4078c0;
 }
 
 /* the cursor for typedjs */
