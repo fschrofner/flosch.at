@@ -37,4 +37,4 @@ The main font I'm using, is called [Open Sans](http://www.google.com/fonts/speci
 [PrismJS](http://prismjs.com/) is used for syntax-highlighting and I used some icons from [Font Awesome](http://fortawesome.github.io/Font-Awesome/).  
 The beautiful, responsive lightbox is done using [Blueimp Gallery](https://github.com/blueimp/Gallery).  
 The page was built on my Linux PC using [nginx](http://nginx.org/) and is now hosted by the same on a XEN server by [HostSailor](https://hostsailor.com).  
-My changes to this website are done in public, you can find the source code [here](https://bitbucket.org/fschrofner/flosch.at/)
+My changes to this website are done in public, you can find the source code [here](https://github.com/fschrofner/flosch.at)
