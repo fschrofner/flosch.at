@@ -2,10 +2,10 @@ var Handlebars = require('handlebars');
 var Metalsmith = require('metalsmith');
 var branch = require('metalsmith-branch');
 var collections = require('metalsmith-collections');
-//var convert = require('metalsmith-convert');
 var date = require('metalsmith-build-date');
 var excerpts = require('metalsmith-excerpts');
 var fs = require('fs');
+var sharp = require('metalsmith-sharp')
 var markdown = require('metalsmith-markdown');
 var moment = require('moment');
 var permalinks = require('metalsmith-permalinks');
@@ -18,7 +18,7 @@ Handlebars.registerHelper('toLowerCase', toLowerCase);
 var metal = Metalsmith(__dirname);
 metal.source('./src');
 metal.destination('./build');
-//metal.clean(true);
+metal.clean(true);
 
 
 metal.use(date());
@@ -71,39 +71,40 @@ metal.use(tags({
 }));
 
 //converts the header pictures of projects for multiple resolutions
-//requires metalsmith-convert to be added as dependency
-// metal.use(convert(
-//     [
-// 	{
-// 	    src: 'images/projects/screens/*/header/*.png',
-// 	    target: 'png',
-// 	    resize: {
-// 		width: 270,
-// 		height: 480,
-// 	    },
-// 	    nameFormat: '%b_large%e'
-// 	},{
-// 	    src: 'images/projects/screens/*/header/*.png',
-// 	    target: 'png',
-// 	    resize: {
-// 		width: 160,
-// 		height: 284,
-// 	    },
-// 	    nameFormat: '%b_small%e'
-// 	}
-//     ]
-// ));
+metal.use(sharp([
+    {
+        src: 'images/projects/screens/*/header/*.png',
+        namingPattern: '{dir}/{name}_large{ext}',
+        methods: [
+            {
+                name: 'resize',
+                args: [ 270, 480 ]
+            }
+        ]
+    },
+    {
+        src: 'images/projects/screens/*/header/*.png',
+        namingPattern: '{dir}/{name}_small{ext}',
+        methods: [
+            {
+                name: 'resize',
+                args: [ 160, 284 ]
+            }
+        ]
+    }
+]));
 
 //converts the gallery thumbnails for every project
-// metal.use(convert({
-//     src: 'images/projects/screens/*/gallery/*.png',
-//     target: 'png',
-//     resize:{
-// 	width: 113,
-// 	height: 200,
-//     },
-//     nameFormat: '%b_thumb%e'
-// }));
+metal.use(sharp({
+    src: 'images/projects/screens/*/gallery/*.png',
+    namingPattern: '{dir}/{name}_thumb{ext}',
+    methods: [
+        {
+            name: 'resize',
+            args: [ 113, 200 ]
+        }
+    ]
+}));
 
 //finally applies handlebars
 metal.use(layouts({
