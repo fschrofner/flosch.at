@@ -120,7 +120,7 @@ metal.use(uglify())
 metal.use(cleanCSS({
     files: '**/*.css',
     cleanCSS: {
-        rebase: true
+        rebase: false
     }
 }))
 
