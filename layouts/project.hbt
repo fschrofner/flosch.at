@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="{{ base_url }}/styles/blueimp-gallery/css/blueimp-gallery.min.css"/>
     <link rel="stylesheet" href="{{ base_url }}/styles/style.css" />
     
-    <script src="{{ base_url }}/styles/foundation/js/modernizr.js"></script>
+    <script src="{{ base_url }}/styles/foundation/js/modernizr.min.js"></script>
     
   </head>
   <div class="off-canvas-wrap">
@@ -41,12 +41,12 @@
           </section>
           {{> footer}}
           <a class="exit-off-canvas"></a>
-          <script src="{{ base_url }}/styles/foundation/js/jquery.js"></script>
-          <script src="{{ base_url }}/styles/foundation/js/foundation/foundation.js"></script>
+          <script src="{{ base_url }}/styles/foundation/js/jquery.min.js"></script>
+          <script src="{{ base_url }}/styles/foundation/js/foundation/foundation.min.js"></script>
           <script src="{{ base_url }}/styles/foundation/js/foundation.min.js"></script>
-          <script src="{{ base_url }}/styles/foundation/js/foundation/foundation.clearing.js"></script>
-          <script src="{{ base_url }}/scripts/sticky_footer.js"></script>
-          <script src="{{ base_url }}/styles/prism/prism.js"></script>
+          <script src="{{ base_url }}/styles/foundation/js/foundation/foundation.clearing.min.js"></script>
+          <script src="{{ base_url }}/scripts/sticky_footer.min.js"></script>
+          <script src="{{ base_url }}/styles/prism/prism.min.js"></script>
           <script src="{{ base_url}}/styles/blueimp-gallery/js/blueimp-gallery.min.js"></script>
           <script>
             $(document).foundation();

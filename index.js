@@ -11,6 +11,8 @@ var moment = require('moment');
 var permalinks = require('metalsmith-permalinks');
 var tags = require('metalsmith-tags');
 var layouts = require('metalsmith-layouts');
+var uglify = require('metalsmith-uglify');
+var cleanCSS = require('metalsmith-clean-css');
 
 Handlebars.registerHelper('formatDate', formatDate);
 Handlebars.registerHelper('toLowerCase', toLowerCase);
@@ -19,7 +21,6 @@ var metal = Metalsmith(__dirname);
 metal.source('./src');
 metal.destination('./build');
 metal.clean(true);
-
 
 metal.use(date());
 
@@ -111,6 +112,17 @@ metal.use(layouts({
     engine: 'handlebars',
     partials: './layouts/partials'
 }));
+
+//minify javascript
+metal.use(uglify())
+
+//minify css
+metal.use(cleanCSS({
+    files: '**/*.css',
+    cleanCSS: {
+        rebase: true
+    }
+}))
 
 metal.build(function(err){
     if (err) throw err;

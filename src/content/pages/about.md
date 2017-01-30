@@ -36,5 +36,5 @@ Responsiveness was done using the [Foundation Framework](http://foundation.zurb.
 The main font I'm using, is called [Open Sans](http://www.google.com/fonts/specimen/Open+Sans), which was commissioned by Google. The font I'm using for code snippets is called [Hack](http://sourcefoundry.org/hack/).  
 [PrismJS](http://prismjs.com/) is used for syntax-highlighting and I used some icons from [Font Awesome](http://fortawesome.github.io/Font-Awesome/).  
 The beautiful, responsive lightbox is done using [Blueimp Gallery](https://github.com/blueimp/Gallery).  
-The page was built on my Linux PC using [nginx](http://nginx.org/) and is now hosted by the same on a XEN server by [HostSailor](https://hostsailor.com).  
+The page was built on my Arch Linux PC using [nginx](http://nginx.org/) and is now hosted by the same combination on a KVM server by [PacmanVPS](https://pacmanvps.com/).  
 My changes to this website are done in public, you can find the source code [here](https://github.com/fschrofner/flosch.at)
