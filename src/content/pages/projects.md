@@ -21,6 +21,16 @@ If you want to take a closer look at one of them just click on the according ico
 <br/>
 <br/>
 
+<center><a href="/projects/ckbk"><img src="/images/projects/ckbk.png"/></a></center>
+<center> <h2> ckbk [HTML5]</h2></center>
+
+
+>ckbk is a cross platform cookbook application written in HTML5 using the ionic framework. It allows you to add, edit or to delete custom recipes on your local device.
+
+<br/>
+<br/>
+<br/>
+
 <center><a href="/projects/notify"><img src="/images/projects/notify.png"/></a></center>
 <center> <h2> Notify [Android]</h2>  </center>  
 
