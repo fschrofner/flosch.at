@@ -37,9 +37,7 @@
 		      <script src="{{ base_url }}/styles/foundation/js/foundation/foundation.clearing.min.js"></script>
 		      <script src="{{ base_url }}/scripts/sticky_footer.min.js"></script>
 		      <script src="{{ base_url }}/styles/prism/prism.min.js"></script>
-		      <script>
-		        $(document).foundation();
-		      </script>
+          <script src="{{ base_url }}/scripts/apply_foundation.min.js"></script>
 		    </section>
 	    </body>
 	  </div>
