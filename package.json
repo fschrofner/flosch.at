@@ -16,7 +16,9 @@
 						"metalsmith-sharp": "^2.1.1",
 						"metalsmith-tags": "^2.0.0",
 						"metalsmith-uglify": "^1.5.1",
-						"moment": "^2.16.0"
+						"moment": "^2.16.0",
+						"sharp": "^0.18.2",
+						"unicode": "^9.0.1"
 			},
 			"devDependencies": {
 						"metalsmith-prism": "*"

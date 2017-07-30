@@ -7,7 +7,7 @@ layout: default.hbt
 ### Concept & Content
 
 Florian Schrofner  
-Kreuzweg 3b  
+Buchenweg 3/4  
 5061 Elsbethen  
 AUSTRIA
 

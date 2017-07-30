@@ -23,7 +23,7 @@ Mobile Dev @ [LOOP New Media](http://www.agentur-loop.com/) [New York City, USA]
 Mobile Dev (Intern) @ [LOOP New Media](http://www.agentur-loop.com/) [Salzburg, Austria]
 
 ### Education  
-Bachelor of Science in Engineering @ [University of Applied Sciences Hagenberg](http://www-en.fh-ooe.at/hagenberg-campus) [Hagenberg, Austria]
+Bachelor of Science in Engineering @ [University of Applied Sciences Upper Austria](https://www.fh-ooe.at/en/) [Hagenberg, Austria]
 
 <i class="fa fa-envelope fa-lg"></i> <span id="obfuscated_email"></span> &nbsp; &nbsp; &nbsp; &nbsp; <i class="fa fa-certificate fa-lg"></i> [Get PGP public key](/keys/florian_schrofner_pub.asc)
 &nbsp; &nbsp; &nbsp; &nbsp;<i class="fa fa-skype fa-lg"></i> [Chat with me on Skype](skype:fschrofner?chat)

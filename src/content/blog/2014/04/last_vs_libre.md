@@ -1,5 +1,5 @@
 ---
-title: Why Libre.fm Can Not Replace Last.fm Yet
+title: Why libre.fm Can Not Replace last.fm Yet
 description: My thoughts about the libre.fm webservice
 author: Florian Schrofner
 date: 2014-04-24
@@ -33,4 +33,4 @@ So you've got to live with:
 That's what really bothers me about their service, as I'm mostly interested in the overall statistics and not in the statistics for the last 6 months. Also I'd really like a download button for my data, since they already promote that the data belongs to the user and that you can take it with you when you leave (a download button would be rather nice to import your playcounts into a new music manager).  
 What I approve of is that they provide you the option to forward every scrobble to Last.fm, which is a pretty kind step of them, they are playing far nicer than Last.fm here.
 
-Long story short: I'm really interested in switching to Libre.fm, when they finally manage to provide some nice presented, extensive statistics.
+Long story short: I'm really interested in switching to Libre.fm, when they finally manage to provide some nicely presented, extensive statistics.
