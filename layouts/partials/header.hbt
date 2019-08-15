@@ -2,7 +2,7 @@
   <ul class="off-canvas-list">
     <li><a href="{{ base_url }}/">Home</a></li>
     <li><a href="{{ base_url }}/projects">Projects</a></li>
-    <li><a href="{{ base_url }}/blog">Blog</a></li>
+    <li><a href="https://blog.schro.fi">Blog</a></li>
     <li><a href="{{ base_url }}/about">About</a></li>
   </ul>
 </aside>
@@ -30,7 +30,7 @@
             <ul class="nav">
               <li><a href="{{ base_url }}/">Home</a></li>
               <li><a href="{{ base_url }}/projects">Projects</a></li>
-              <li><a href="{{ base_url }}/blog">Blog</a></li>
+              <li><a href="https://blog.schro.fi">Blog</a></li>
               <li><a href="{{ base_url }}/about">About</a></li>
             </ul>
           </div>

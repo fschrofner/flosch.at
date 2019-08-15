@@ -5,25 +5,33 @@ layout: default.hbt
 ---
 
 # About me  
-I'm a 25 year old mobile developer from Salzburg, Austria, who studied Mobile Computing at the University of Applied Sciences [Hagenberg](http://www-en.fh-ooe.at/hagenberg-campus/).  
-I am a huge fan of free & open source software, [non-mainstream movies](https://mubi.com/users/7455172), [music](http://www.last.fm/user/FlowingKashmir) and cooking.  
+I'm a mobile developer from Salzburg, Austria, who studied Mobile Computing at the University of Applied Sciences [Hagenberg](http://www-en.fh-ooe.at/hagenberg-campus/).  
+I am a huge fan of free & open source software, [indie movies](https://mubi.com/users/7455172), [music](http://www.last.fm/user/FlowingKashmir), cooking and [cycling](https://www.strava.com/athletes/31547446).  
 Even though I was always quite interested in the field of informatics, it took me a while to decide to make it my profession and to enroll at one of the most reputable universities of Austria.  
 Before that I was heavily focusing on Western European languages in [grammar school](http://www.bgnonntal.at/), which gave me some great insights into other cultures and ways of living.  
-The languages I've learned include English, French, Italian and Latin (just  mentioned for completeness).  
+The languages I've learned include English, French, Italian and Latin.  
 
 ### Work  
 
-#### 10.2017 - now
+#### 11.2018 - now
+
+Mobile Dev @ [LOOP New Media](http://www.agentur-loop.com/) [Salzburg, Austria]  
+
+#### 10.2017 - 10.2018
 
 Software Dev & Technology Manager @ [SPAR ICS](https://www.spar-ics.com/) [Salzburg, Austria]
 
+#### 07.2016 - 10.2016
+
+Mobile Dev Intern @ [LOOP New Media](http://www.agentur-loop.com/) [Salzburg, Austria]
+
 #### 02.2015 - 07.2015  
 
-Mobile Dev @ [LOOP New Media](http://www.agentur-loop.com/) [New York City, USA]
+Mobile Dev Intern @ [LOOP New Media](http://www.agentur-loop.com/) [New York City, USA]
 
-#### 06.2014 - 08.2014 & 07.2016 - 10.2016  
+#### 06.2014 - 08.2014
 
-Mobile Dev (Intern) @ [LOOP New Media](http://www.agentur-loop.com/) [Salzburg, Austria]
+Mobile Dev Intern @ [LOOP New Media](http://www.agentur-loop.com/) [Salzburg, Austria]
 
 ### Education  
 Master of Science in Engineering @ [University of Applied Sciences Upper Austria](https://www.fh-ooe.at/en/) [Hagenberg, Austria]
@@ -41,5 +49,5 @@ Responsiveness was done using the [Foundation Framework](http://foundation.zurb.
 The main font I'm using, is called [Open Sans](http://www.google.com/fonts/specimen/Open+Sans), which was commissioned by Google. The font I'm using for code snippets is called [Hack](http://sourcefoundry.org/hack/).  
 [PrismJS](http://prismjs.com/) is used for syntax-highlighting and I used some icons from [Font Awesome](http://fortawesome.github.io/Font-Awesome/).  
 The beautiful, responsive lightbox is done using [Blueimp Gallery](https://github.com/blueimp/Gallery).  
-The page was built on my Arch Linux PC using [nginx](http://nginx.org/) and is now hosted by the same on a Gentoo server by [Scaleway](https://www.scaleway.com/).  
+The page was built on my Arch Linux PC using [nginx](http://nginx.org/) and is now hosted by the same on a Debian server by [Scaleway](https://www.scaleway.com/).  
 My changes to this website are done in public, you can find the source code [here](https://github.com/fschrofner/flosch.at)
