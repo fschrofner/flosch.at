@@ -2,7 +2,7 @@
 			"name": "flosch.at",
 			"description": "build script for the flosch.at website",
 			"dependencies": {
-						"handlebars": "^4.0.5",
+						"handlebars": "^4.3.0",
 						"markdown-it": "^8.2.2",
 						"metalsmith": "^2.3.0",
 						"metalsmith-branch": "0.0.4",
